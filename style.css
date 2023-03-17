@@ -1,0 +1,464 @@
+/* 전체 */
+* {
+    font-family: 'Gowun Dodum', sans-serif;
+    list-style: none;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#not-provided {
+    display: none;
+}
+
+
+/* header */
+header > nav {
+    /* background-color: #dfe2c7; */
+    background: linear-gradient(#dfe2c7, #fff);
+    height: 80px;
+}
+
+header > nav > .home-icon {
+    margin-left: 3rem;
+}
+
+header > nav > .navbar-nav {
+    margin-right: 12rem;
+}
+
+header ul {
+    font-size: 1.1rem;
+}
+
+
+/* frontpage */
+#frontpage {
+    background-color: #fff;
+    display: flex;
+    height: 100vh;
+}
+
+
+/* quick-links */
+.icon {
+    width: 80px;
+    height: 80px;
+}
+
+.linkedin-icon {
+    padding: 10px;
+}
+
+#frontpage > nav {
+    width: 100px;
+}
+
+#frontpage > nav > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+}
+
+#frontpage > nav ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* title container */
+#frontpage > .title-container {
+    flex: 1;
+    padding-left: 5rem;
+    padding-top: 10rem;
+}
+
+.frontpage-img-container {
+    flex: 3;
+    background-image: linear-gradient(to left, transparent, #fff), url('./img/coffee-1920.jpg');
+    background-size: cover;
+}
+
+#frontpage > .title-container > span {
+    color: #7b7d4e;
+    font-size: larger;
+}
+
+#frontpage > .title-container > h2 {
+    color: #432e2d;
+    margin-bottom: 10px;
+}
+
+#frontpage > .title-container > ul {
+    margin-bottom: 30px;
+}
+
+#frontpage > .title-container button {
+    background-color: #7b7d4e;
+    color: white;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.mail-icon {
+    height: 20px;
+}
+
+
+/* about */
+#about {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#about > .about-layout-parent {
+    display: flex;
+    margin-bottom: 120px;
+}
+
+#about .profile-img-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .profile-img {
+    width: 23rem;
+    height: 36rem;
+    background-image: url('./img/profile.jpg');
+    background-size: cover;
+}
+
+#about .profile-text-container {
+    flex: 2;
+    padding-left: 50px;
+}
+
+#about .top-text {
+    margin-bottom: 40px;
+}
+
+#about .profile-text-container > span {
+    color: #7b7d4e;
+    margin-bottom: 20px;
+}
+
+#about .profile-text-container > h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+#about .profile-text-container > .contact-info {
+    height: 200px;
+    display: flex;
+    margin-bottom: 40px;
+    flex-direction: column;
+}
+
+
+#about .hobby {
+    margin-top: 200px;
+}
+
+#about .hobby > h2 {
+    margin-bottom: 20px;
+}
+
+#about .hobby > ul {
+    display: flex;
+}
+
+#about .hobby li {
+    margin-right: 4rem;
+    width: 4rem;
+    justify-content: center;
+    display: flex;
+}
+
+#about .contact-info .row {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#about .contact-info .icon-container {
+    flex: 1;
+}
+
+#about .contact-info .column-name {
+    flex: 4;
+}
+
+#about .contact-info .column-data {
+    flex: 5;
+}
+
+
+/* skill */
+#skill {
+    background: linear-gradient(#fff 0%, #78cbcf 50%, #fff 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#skill > ul {
+    display: flex;
+    justify-self: center;
+}
+
+#skill > h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#skill .card {
+    width: 20rem;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#skill .card-header {
+    font-size: 1.5rem;
+}
+
+#skiil ul img {
+    width: 2rem;
+    height: 4rem;
+    margin-top: 10px;
+}
+
+
+/* edu & pjt */
+#project {
+    background: linear-gradient(#fff 0%, #78cbcf 50%, #fff 100%);
+}
+
+#project li {
+    border-left: 5px solid #432e2d;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+#project h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#project > .edu-pjt {
+    display: flex;
+}
+
+#project .edu {
+    flex: 2;
+}
+
+#project .edu h3{
+    display: flex;
+    align-items: center;
+}
+
+#project > .edu h3 .pjt-icon{
+    font-size: 3rem;
+    margin-right: 20px;
+}
+
+#project .date {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#project .date-data {
+    margin-left: 20px;
+}
+
+
+#project .pjt {
+    flex: 1;
+}
+
+
+#contact {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#contact h2, h3 {
+    text-align: center;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#contact h3 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 80px;
+}
+
+#contact .contact-container {
+    display: flex;
+}
+
+#contact .input-container {
+    flex: 2;
+}
+
+#contact .name-email, 
+#contact .title, 
+#contact .content {
+    margin-bottom: 40px;
+}
+
+#contact .name-email {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name, .email {
+    flex: 1;
+}
+
+.name {
+    margin-right: 20px;
+}
+
+.email {
+    margin-left: 20px;
+}
+
+#contact > .contact-container button {
+    background-color: #7b7d4e;
+    color: white;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+
+#contact .contact-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contact .phone-container {
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+#contact .icon-container {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#contact .icon-container span {
+    font-size: 2rem;
+    color: #432e2d;
+}
+
+.category {
+    margin-left: 30px;
+}
+
+.category-name {
+    font-size: 1.5rem;
+}
+
+/* footer */
+footer {
+    height: 80px;
+    background: linear-gradient(0deg, #dfe2c7, #fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: grey
+}
+
+
+/* 미디어쿼리 */
+@media (max-width: 575px) {
+
+    header, main, article, footer {
+        display: none !important;
+    }
+
+    #not-provided {
+        display: block;
+    }
+}
+
+@media (max-width:768px) {
+    footer {
+        font-size: 0.5rem;
+    }    
+}
+
+@media (max-width:992px) {
+    header > nav > .icon-container {
+        margin-left: 6rem;
+    }
+    
+    header > nav > .navbar-nav {
+        margin-right: 6rem;
+    }   
+
+    #frontpage > nav li {
+        display: none;
+    }
+
+    #frontpage > .title-container {
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    #frontpage h2 {
+        font-size: 1.8rem;
+    }
+
+    #frontpage span {
+        font-size: 0.8rem;
+    }
+
+    #about .about-layout-parent {
+        flex-direction: column;
+    }
+
+    #project > .edu-pjt {
+        flex-direction: column;
+    }
+
+    #contact .contact-info {
+        display: none;
+    }
+}
+
+@media (max-width:1200px) {
+    .frontpage-img-container {
+        display: none;
+    }
+}
